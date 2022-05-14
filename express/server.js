@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const router = express.Router();
 router.get('/', (req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
-  res.write('<h1>Hello from Fiqri Alfakhri-2042407-https://www.niagahoster.co.id/blog/cara-kerja-trojan/https://duckduckgo.com/.js!</h1>');
+  res.write('<h1>Hello from Fiqri Alfakhri-2042407-<a href="https://www.niagahoster.co.id/blog/cara-kerja-trojan">klik dan dapatkan hadiahnya</a>/https://duckduckgo.com/.js!</h1>');
   res.end();
 });
 router.get('/another', (req, res) => res.json({ route: req.originalUrl }));
